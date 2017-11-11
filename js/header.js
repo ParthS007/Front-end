@@ -8,3 +8,20 @@ $(function(){
     }
   })
 })
+$(function(){
+        $("#Home").click(function(){
+          $("#section_01").show(100);
+          $("#section_02").hide();
+          $("#section_03").hide();
+        });
+        $("#About").click(function(){
+          $("#section_01").hide();
+          $("#section_02").show();
+          $("#section_03").hide();
+        });
+        $("#Sign").click(function(){
+          $("#section_01").hide();
+          $("#section_02").hide();
+          $("#section_03").show();
+        });
+})
