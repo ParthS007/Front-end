@@ -68,17 +68,18 @@ h2 {
   text-transform: uppercase;
   font-weight: 100;
   line-height: 2;
-  color: #2c3e50;
+  color: #000;
 }
 
 p {
   margin-bottom: 2rem;
   line-height: 2;
-  color: #7f8c8d;
+  color: #000;
 }
 
 .wrapper {
-  width: 800px;
+  width: 1100px;
+  opacity: 0.7;
   margin: 0 auto;
 }
 
